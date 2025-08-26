@@ -1,0 +1,5 @@
+iwr https://railway.com/install.ps1 -useb | iex
+railway link -p ad3cab3f-b75d-4a44-86c8-d5dc893f615f
+railway run npm run migrate
+railway status
+railway logs
