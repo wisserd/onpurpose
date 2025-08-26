@@ -1,2 +1,2 @@
 # onpurpose
-we provide time, presants, hospitality
+we provide time, presants, hospitality, professionalism
