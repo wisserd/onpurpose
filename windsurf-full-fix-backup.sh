@@ -94,3 +94,5 @@ git commit -m "🔥 Full Windsurf Auto-Fix with backup: cleaned repo, rebuilt, d
 git push origin main --force
 
 echo "✅ All done! Repo is clean, Vercel-ready, and backed up large files in $BACKUP_DIR."
+chmod +x windsurf-full-fix-backup.sh
+./windsurf-full-fix-backup.sh
