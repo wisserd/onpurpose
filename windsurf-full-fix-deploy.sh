@@ -89,7 +89,7 @@ EOL
 # --- Commit & push ---
 echo "💾 Committing and pushing fixes..."
 git add .
-git commit -m "🔧 Windsurf Full Fix + Vercel Deploy"
+git commit -m "🔧 Create windsurf-full-fix-deploy.sh and clean repo"
 git push origin main --force
 
 # --- Trigger Vercel preview deploy ---
@@ -100,6 +100,4 @@ else
   echo "⚠️ Vercel CLI not installed. Skipping deploy."
 fi
 
-echo "✅ Windsurf full fix complete and Vercel deploy triggered!"
-chmod +x windsurf-full-fix-deploy.sh
-./windsurf-full-fix-deploy.sh
+echo "✅ Windsurf full fix deploy script created, pushed, and deployed!"
